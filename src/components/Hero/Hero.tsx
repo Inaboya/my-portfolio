@@ -5,9 +5,7 @@ import Illustration from "../../assets/illustration.svg"
 import { NavHashLink } from "react-router-hash-link"
 import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
 import Hello from '../../assets/Hello.gif'
-import telegram from '../../assets/telegram.svg'
 export function Hero() {
   return (
     <Container id="home">
@@ -21,9 +19,9 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
           <h3>Fullstack Software Developer</h3>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
+        {/* <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
           <p className="small-resume">5 Years Experience</p>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
